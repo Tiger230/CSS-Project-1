@@ -1,0 +1,41 @@
+* {
+    background-color: rgb(195, 166, 130);
+    color: rgb(36, 36, 36);
+}
+
+.Button {
+    background-color: rgb(67, 29, 20);
+    color: white;
+    margin: 0px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    text-decoration: none;
+    width: 33%;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.Button:hover {
+    background-color: rgb(151, 0, 0);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: center;
+}
+
+table {
+    width: 100%;
+    box-shadow: 5px 5px rgb(36, 36, 36);
+    outline: 1px solid black;
+}
